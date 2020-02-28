@@ -1,0 +1,49 @@
+{
+    "server": {
+        "port": 3000,
+        "url": "http://localhost",
+        "asset_storage": "videos"
+    },
+    "Db": {
+        "uri": "mongodb://localhost:27017/PrimeTubeDb"
+    },
+    "password_salt": "alskdfjlaksoweroajsdfklaxckvlasdkfuq",
+
+    "facebook_key": {
+        "appid": "2319157501658843",
+        "appsecret": "fb57dd36b65098ca751e9c9f53e08245",
+        "callbackurl": "https://localhost:3000/auth/facebook/callback"
+    },
+
+    "google_key": {
+        "appid": "917518804450-vn0303cvbi7flhpginfvrn2vsd2ceks9.apps.googleusercontent.com",
+        "appsecret": "t09IrjqIMWlk8DOb3oihBRwz",
+        "callbackurl": "http://localhost:3000/auth/google/callback"
+    },
+    "jwtsecretkey": ";alskjdfoqwiuerklaxvjxlkvjasdoifuqweroiuasdflkajsdf",
+    
+    "path": {
+        "uploadpath": "/home/naty/Desktop/Projects/PrimeTube/public/uploads",
+        "videopath": "/home/naty/Desktop/Projects/PrimeTube/public/videos",
+        "liverecordingpath": "/home/naty/Desktop/Projects/PrimeTube/public/live/recordings"
+    },
+    "videotags": [
+        "Science",
+        "Technology",
+        "Sport",
+        "Music"
+    ],
+    "videotypes" : [
+        "FREE", 
+        "PREMIUM"
+    ],
+    "live": {
+        "livertmpserver": "http://localhost:8080/live",
+        "livetags": [
+            "Science",
+            "Technology",
+            "Sport",
+            "Music"
+        ]
+    }
+}
